@@ -81,7 +81,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/interactive-comments-section.png",
+      image: "/interactive-comments-section.PNG",
       video: ""
     }
   ]
