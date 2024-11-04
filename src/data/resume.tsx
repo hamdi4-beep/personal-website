@@ -25,8 +25,7 @@ export const DATA = {
     "Java"
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/", icon: HomeIcon, label: "Home" }
   ],
   contact: {
     email: "hamdiakippuden@gmail.com",
@@ -72,7 +71,8 @@ export const DATA = {
       technologies: [
         "React.js",
         "TypeScript",
-        "JSON"
+        "JSON",
+        "User Experience"
       ],
       links: [
         {
@@ -80,6 +80,11 @@ export const DATA = {
           href: "https://hamdi4-beep.github.io/interactive-comments-section-main/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/hamdi4-beep/interactive-comments-section-main",
+          icon: <Icons.github className="size-3" />
+        }
       ],
       image: "/interactive-comments-section.PNG",
       video: ""
