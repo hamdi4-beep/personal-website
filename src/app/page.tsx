@@ -118,11 +118,11 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Unsure? Just shoot me a mail and we will discuss how I can help you!{" "}
                 <Link
-                  href={DATA.contact.social.email.url}
+                  href={DATA.contact.social.Email.url}
                   className="text-blue-500 underline"
                 >
-                  <Icons.email className="inline size-5" />
-                  {DATA.contact.social.email.name}
+                  <Icons.email className="inline size-5 mr-2" />
+                  {DATA.contact.social.Email.name}
                 </Link>{" "}
                 and I&apos;ll respond within 24 hours. I will ignore all
                 soliciting.
