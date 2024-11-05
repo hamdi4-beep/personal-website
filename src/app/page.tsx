@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Icons } from "@/components/icons";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -120,6 +121,7 @@ export default function Page() {
                   href={DATA.contact.social.email.url}
                   className="text-blue-500 underline"
                 >
+                  <Icons.email className="inline size-5" />
                   {DATA.contact.social.email.name}
                 </Link>{" "}
                 and I&apos;ll respond within 24 hours. I will ignore all

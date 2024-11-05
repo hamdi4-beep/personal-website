@@ -55,7 +55,7 @@ export const DATA = {
         url: "mailto:hamdiakippuden@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
