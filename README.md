@@ -1,3 +1,7 @@
+<div class="center">
+   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXV5bm1oZGhwZGo2Ym13ZDRqcjdxbzh5anBnN2lvcWpzNTZhZTRueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y6FTiJ7m19XD8BnGgI/giphy.gif" />
+</div>
+
 # Portfolio
 
 Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
