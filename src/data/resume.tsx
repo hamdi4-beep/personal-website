@@ -118,7 +118,7 @@ export const DATA = {
     },
     {
       title: "Time Board Dashboard",
-      href: "https://github.com/hamdi4-beep/time-tracking-dashboard",
+      href: "https://hamdi4-beep.github.io/time-tracking-dashboard/",
       dates: "Sept 2024",
       active: true,
       description:
@@ -146,7 +146,7 @@ export const DATA = {
     },
     {
       title: "Notifications Page",
-      href: "https://github.com/hamdi4-beep/notification-page-main",
+      href: "https://hamdi4-beep.github.io/notification-page-main/",
       dates: "Aug 2024",
       active: true,
       description:
