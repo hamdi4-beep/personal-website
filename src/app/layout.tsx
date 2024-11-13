@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -52,8 +53,21 @@ export const metadata: Metadata = {
   verification: {
     google: "",
     yandex: "",
-  },
+  }
 };
+
+const GoogleAdSenseComponent = () => {
+  if (process.env.NODE_ENV !== 'production') return null
+
+  return (
+    <Script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5216826436622765"
+      crossOrigin="anonymous"
+      strategy="afterInteractive"
+    />
+  )
+}
 
 export default function RootLayout({
   children,
@@ -74,6 +88,8 @@ export default function RootLayout({
             {children}
           </TooltipProvider>
         </ThemeProvider>
+
+        <GoogleAdSenseComponent />
       </body>
     </html>
   );
