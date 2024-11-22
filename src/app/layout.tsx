@@ -6,7 +6,6 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -17,14 +16,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
     default: DATA.name,
-    template: `%s | ${DATA.name} Portfolio`,
+    template: `%s | ${DATA.name}'s Portfolio`,
   },
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name} Personal Portfolio`,
+    siteName: `${DATA.name}'s Personal Portfolio`,
     locale: "en_US",
     type: "website",
     images: [{
@@ -56,19 +55,6 @@ export const metadata: Metadata = {
   }
 };
 
-const GoogleAdSenseComponent = () => {
-  if (process.env.NODE_ENV !== 'production') return null
-
-  return (
-    <Script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5216826436622765"
-      crossOrigin="anonymous"
-      strategy="afterInteractive"
-    />
-  )
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -88,8 +74,6 @@ export default function RootLayout({
             {children}
           </TooltipProvider>
         </ThemeProvider>
-
-        <GoogleAdSenseComponent />
       </body>
     </html>
   );

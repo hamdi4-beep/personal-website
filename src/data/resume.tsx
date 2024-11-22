@@ -7,9 +7,9 @@ export const DATA = {
   url: "https://personal-website-psi-two-59.vercel.app/",
   location: "Tunisia, North Africa",
   description:
-    "A software engineer with expertise in developing digital solutions that resonate with your user base.",
+    "A frontend engineer that values continuous learning and impactful contributions to meaningful projects.",
   summary:
-    "Since January 2024, I've ventured into the world of SaaS where I discovered the value I bring to digital products and online businesses by developing software solutions that thrive on impactful contributions and open communication.",
+    "Since November 2020, I've ventured into the world of technologies where I learned to develop software solutions for online businesses and digital products. I value open communication and constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
   avatarUrl: "/me.jpg",
   skills: [
     "User Interface",
