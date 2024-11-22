@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "A frontend engineer that values continuous learning and impactful contributions to meaningful projects.",
   summary:
-    "Since November 2020, I've ventured into the world of technologies where I learned to develop software solutions for online businesses and digital products. I value open communication and constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
+    "Since November 2020, I've worked with React.js and many other technologies where I developed software solutions that included a filtering functionality for e-commerce platform. I thrive on open communication and value constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
   avatarUrl: "/me.jpg",
   skills: [
     "User Interface",
