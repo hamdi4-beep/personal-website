@@ -7,9 +7,9 @@ export const DATA = {
   url: "https://personal-website-psi-two-59.vercel.app/",
   location: "Tunisia, North Africa",
   description:
-    "A frontend engineer that values continuous learning and impactful contributions to meaningful projects.",
+    "A frontend engineer with user-centric mindset that values impactful contributions.",
   summary:
-    "Since November 2020, I've worked with React.js and many other technologies where I developed software solutions that included a filtering functionality for e-commerce platform. I thrive on open communication and value constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
+    "Since November 2020, I've mainly worked with React.js and TypeScript along with many popular technologies. I thrive on open communication and value constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
   avatarUrl: "/me.jpg",
   skills: [
     "User Interface",
