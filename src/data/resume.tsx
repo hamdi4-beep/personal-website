@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://personal-website-psi-two-59.vercel.app/",
   location: "Tunisia, North Africa",
   description:
-    "A frontend engineer with user-centric mindset that values impactful contributions.",
+    "A software developer with user-centric mindset that values impactful contributions.",
   summary:
     "Since November 2020, I've mainly worked with React.js and TypeScript along with many popular technologies. I thrive on open communication and value constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
   avatarUrl: "/me.jpg",
@@ -21,7 +21,9 @@ export const DATA = {
     "Next.js",
     "Node.js",
     "Typescript",
-    "Java"
+    "Java",
+    "PHP",
+    "Laravel"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" }
@@ -52,7 +54,7 @@ export const DATA = {
       },
       Email: {
         name: "Send Mail",
-        url: "mailto:hamdiakippuden@gmail.com",
+        url: "mailto:hamdi.devhubs@gmail.com",
         icon: Icons.email,
 
         navbar: true,
