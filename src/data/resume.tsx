@@ -78,100 +78,16 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://hamdi4-beep.github.io/interactive-comments-section-main/",
+          href: "https://hamdi4-beep.github.io/interactive-comment-section/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/hamdi4-beep/interactive-comments-section-main",
+          href: "https://github.com/hamdi4-beep/interactive-comment-section/",
           icon: <Icons.github className="size-3" />
         }
       ],
       image: "/interactive-comments-section.PNG",
-      video: ""
-    },
-    {
-      title: "Expenses Chart",
-      href: "https://hamdi4-beep.github.io/expenses-chart-component-main/",
-      dates: "March 2024",
-      active: true,
-      description:
-        "An expenses chart that reflects mockup data based on the current day of the week.",
-      technologies: [
-        "React.js",
-        "TypeScript",
-        "JSON",
-        "User Experience"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hamdi4-beep.github.io/expenses-chart-component-main/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/hamdi4-beep/expenses-chart-component-main",
-          icon: <Icons.github className="size-3" />
-        }
-      ],
-      image: "/expenses-chart.PNG",
-      video: ""
-    },
-    {
-      title: "Time Board Dashboard",
-      href: "https://hamdi4-beep.github.io/time-tracking-dashboard/",
-      dates: "Sept 2024",
-      active: true,
-      description:
-        "A time dashboard with mockup data that displays the amount of time spent per activity.",
-      technologies: [
-        "React.js",
-        "TypeScript",
-        "JSON",
-        "User Experience"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hamdi4-beep.github.io/time-tracking-dashboard/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/hamdi4-beep/time-tracking-dashboard",
-          icon: <Icons.github className="size-3" />
-        }
-      ],
-      image: "/time-tracking-dashboard.PNG",
-      video: ""
-    },
-    {
-      title: "Notifications Page",
-      href: "https://hamdi4-beep.github.io/notification-page-main/",
-      dates: "Aug 2024",
-      active: true,
-      description:
-        "A notifications system that notifies users of any subscription on a website.",
-      technologies: [
-        "React.js",
-        "TypeScript",
-        "JSON",
-        "User Experience"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hamdi4-beep.github.io/notification-page-main/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/hamdi4-beep/notification-page-main",
-          icon: <Icons.github className="size-3" />
-        }
-      ],
-      image: "/notifications-page.PNG",
       video: ""
     }
   ]
