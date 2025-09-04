@@ -63,15 +63,15 @@ export const DATA = {
   },
   projects: [
     {
-      title: "Comments Section",
-      href: "https://hamdi4-beep.github.io/interactive-comments-section-main/",
-      dates: "Sept 2024",
+      title: "Comment Section",
+      href: "https://hamdi4-beep.github.io/interactive-comment-section/",
       active: true,
       description:
         "A fully interactive comment section that you could integrate into your existing website. I incorporated feedback from actual users that helped me improve the User Experience.",
       technologies: [
         "React.js",
         "TypeScript",
+        "Redux",
         "JSON",
         "User Experience"
       ],
