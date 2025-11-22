@@ -9,8 +9,8 @@ export const DATA = {
   description:
     "A software developer with user-centric mindset that values impactful contributions.",
   summary:
-    "Since November 2020, I've mainly worked with React.js and TypeScript along with many popular technologies. I thrive on open communication and value constructive feedback which helps me deliver a memorable experience for my clients and people I work with.",
-  avatarUrl: "/me.jpg",
+    "A mid-level software developer with professional experience in React, NodeJS and TypeScript. I've worked on product-driven projects such as e-commerce, and a chemical engineering catalog. I'm currently available for work.",
+  avatarUrl: "/me.png",
   skills: [
     "User Interface",
     "User Experience",
@@ -67,7 +67,7 @@ export const DATA = {
       href: "https://hamdi4-beep.github.io/interactive-comment-section/",
       active: true,
       description:
-        "A fully interactive comment section that you could integrate into your existing website. I incorporated feedback from actual users that helped me improve the User Experience.",
+        "A fully-featured comment section with reply support and voting system built in React.js.",
       technologies: [
         "React.js",
         "TypeScript",
